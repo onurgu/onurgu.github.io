@@ -24,7 +24,7 @@ interests:
 - Named entity recognition
 - Morphologically rich languages
 - Morphological disambiguation
-- Games with a purpose
+- Large language models
 
 education:
   courses:
