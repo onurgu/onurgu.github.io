@@ -50,6 +50,7 @@ subtitle = ""
  css_class = ""
 +++
 
+- I started giving a graduate level lecture called [Transformer-based Pre-training Methods in Natural Language Processing](https://docs.google.com/document/d/e/2PACX-1vTTuCQP2ed8j2CfLnzh6W6m5oh-k7pVl0JjqTJi5wdh5od5GJ9mc1xWq-OLAjyfFMfMrh4iK2hu6GkH/pub) at Bogazici University Computer Engineering in Fall 22/23.
 - I defended my [PhD thesis](./publication/gungor-2021-neuralnamedentityrecognition/gungor-2021-neuralnamedentityrecognition.pdf) on 19 February 2021 and awarded with the PhD title!
 - We recieved a lot of media attention about our latest online experiment ([BOUN Newsletter](https://haberler.boun.edu.tr/tr/haber/bogazicililerden-de-da-takintisi-icin-web-sitesi), [Milliyet Pazar](https://www.milliyet.com.tr/pazar/de-ve-daya-muhendis-dokunusu-6256670))!
 - We are running an experiment aiming to compare human and machine attention when solvind spelling errors related to ``-de/-da'' clitics in Turkish. Turkish speaking people are invited to [participate](http://dedatakintisi.derlem.com), and try out our error correction model [with new sentences](http://dedatakintisi.derlem.com/deda/bul).

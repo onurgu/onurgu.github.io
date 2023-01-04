@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student
+role: Part-time faculty at Bogazici University & Data Science Manager at Udemy
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Data science manager leading a team that aims to understand the course content at Udemy. Part-time lecturer at Bogazici University giving a lecture titled "Transformer-based Pre-training Methods for Natural Language Processing".
 
 interests:
 - Named entity recognition
@@ -77,4 +77,4 @@ user_groups:
 I received my PhD at [Boğaziçi University Computer Engineering Department](http://www.cmpe.boun.edu.tr). 
 My research focuses on named entity recognition for morphologically rich languages [[1](publication/gungor-2019-effect/), [2](publication/gungor-2018-improving/), [3](publication/gungor-2017-morphological/)], but I also write papers about explaining NLP predictions [[4](publication/gungor-2020-plosone/)], compiling interesting corpora [[5](publication/gungor-2018-lrec/)], and correcting annoying spelling errors [[6](publication/arikan-2019-detecting/)].
 
-I also work as a senior data scientist leading a small team at sahibinden.com developing systems that solve business problems using machine learning methods. For details of my industrial experience, please refer to [my LinkedIn profile](https://www.linkedin.com/in/onurgungor/).
+I also work as a data science manager at Udemy developing systems that solve business problems using natural language processing methods. For details of my industrial experience, please refer to [my LinkedIn profile](https://www.linkedin.com/in/onurgungor/).
