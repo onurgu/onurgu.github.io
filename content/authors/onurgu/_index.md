@@ -2,6 +2,10 @@
 # Display name
 title: Onur Güngör
 
+# Full name (for SEO)
+first_name: Onur
+last_name: Güngör
+
 # Username (this should match the folder name)
 authors:
 - onurgu
@@ -9,7 +13,10 @@ authors:
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
+# Role/position/tagline
 role: Part-time faculty at Bogazici University & Data Science Manager at Udemy
 
 # Organizations/Affiliations
@@ -27,34 +34,55 @@ interests:
 - Large language models
 
 education:
-  courses:
-  - course: PhD in Computer Eng.
+  - area: PhD in Computer Engineering
     institution: Boğaziçi University
-    year: 2021
-  - course: MS in Computer Eng.
+    date_start: 2006-01-01
+    date_end: 2021-12-31
+    summary: |
+      Research focused on named entity recognition for morphologically rich languages, morphological disambiguation, and natural language processing applications.
+  - area: MS in Computer Engineering
     institution: Boğaziçi University
-    year: 2009
-  - course: BS in Computer Eng.
+    date_start: 2006-01-01
+    date_end: 2009-12-31
+    summary: |
+      Master's thesis on natural language processing and computational linguistics.
+  - area: BS in Computer Engineering
     institution: Boğaziçi University
-    year: 2006
+    date_start: 2002-01-01
+    date_end: 2006-12-31
+    summary: |
+      Bachelor's degree in Computer Engineering with focus on software engineering and algorithms.
 
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/onurgu_ml
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=FW7c17kAAAAJ&hl=en
-- icon: github
-  icon_pack: fab
-  link: https://github.com/onurgu
+# Social network links
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+profiles:
+  - icon: at-symbol
+    url: '#contact'
+    label: E-mail Me
+  - icon: brands/x
+    url: https://twitter.com/onurgu_ml
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=FW7c17kAAAAJ&hl=en
+  - icon: brands/github
+    url: https://github.com/onurgu
+
+work:
+  - position: Data Science Manager
+    company_name: Udemy
+    company_url: 'https://www.udemy.com/'
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |
+      Leading a team that aims to understand course content at Udemy. Developing systems that solve business problems using natural language processing methods.
+  - position: Part-time Faculty
+    company_name: Boğaziçi University
+    company_url: 'http://www.cmpe.boun.edu.tr'
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |
+      Teaching "Transformer-based Pre-training Methods for Natural Language Processing" at the Computer Engineering Department.
   
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
