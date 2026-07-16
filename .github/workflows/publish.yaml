@@ -28,6 +28,7 @@ jobs:
           mkdir _site
           cp index.html styles.css script.js 404.html robots.txt sitemap.xml .nojekyll _site/
           cp -R assets _site/assets
+          cp -R academic art code writing _site/
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site

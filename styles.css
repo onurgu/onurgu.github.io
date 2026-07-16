@@ -108,7 +108,7 @@ img { display: block; max-width: 100%; }
 
 .worlds { border-bottom: 1px solid var(--line); }
 .world-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 1rem; }
-.world-card { min-height: 390px; border: 1.5px solid var(--ink); padding: 1.4rem; display: flex; flex-direction: column; position: relative; transition: transform .25s ease, box-shadow .25s ease; }
+.world-card { min-height: 390px; border: 1.5px solid var(--ink); padding: 1.4rem; display: flex; flex-direction: column; position: relative; transition: transform .25s ease, box-shadow .25s ease; color: inherit; text-decoration: none; }
 .world-card:hover { transform: translateY(-8px) rotate(-.6deg); box-shadow: 8px 8px 0 var(--ink); z-index: 2; }
 .world-card:nth-child(even):hover { transform: translateY(-8px) rotate(.6deg); }
 .world-card h3 { margin: auto 0 1rem; font-size: clamp(2rem, 4vw, 4rem); line-height: .9; letter-spacing: -.06em; text-transform: uppercase; }

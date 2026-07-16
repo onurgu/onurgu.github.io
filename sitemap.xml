@@ -5,4 +5,8 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url><loc>https://onurgu.github.io/academic/</loc></url>
+  <url><loc>https://onurgu.github.io/art/</loc></url>
+  <url><loc>https://onurgu.github.io/code/</loc></url>
+  <url><loc>https://onurgu.github.io/writing/</loc></url>
 </urlset>
